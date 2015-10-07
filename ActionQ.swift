@@ -9,6 +9,7 @@
 import Foundation
 import SpriteKit
 
+// nodes that represent an action to preform on a sprite
 class Node {
     var action: SKAction? = nil
     var next: Node? = nil
@@ -21,6 +22,11 @@ class Node {
     }
 }
 
+
+// the main class that manages the action queue.  simply create an ActionQ object, and call the 
+// addNext function to put an action into the queue to be processed immediately.action
+// actions are processed sequentially and each action in the queue waits for the previous action
+// to finish before it will start. 
 class ActionQ {
     var count: Int = 0
     var head: Node? = nil
