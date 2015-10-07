@@ -1,0 +1,1 @@
+these two classes create a FIFO queue that wil sequentially process any SKAction that is passed into it.  the purpose of creating this class is I was sick of having to deal with call back routines to process SKActions when dealing multiple sprites. this class removes the complexity of creating many sequential actions for multiple different sprites. 
