@@ -74,6 +74,7 @@ class ActionQ {
         self.count--
     }
     
+    // anything left in the queue?
     func isEmpty() -> Bool {
         return self.count == 0
     }
