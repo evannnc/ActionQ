@@ -7,7 +7,10 @@ dealing multiple sprites. this class removes the complexity of creating many seq
 *    Example   
 
 // define the ActionQ object
+
 let actq = ActionQ()
+
+
 
 
 // add actions to the queue
