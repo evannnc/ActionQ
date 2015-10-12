@@ -13,4 +13,5 @@ let actq = ActionQ()
 // add actions to the queue
 
 actq.addNext(mySprite, action: SKAction.fadeAlphaTo(1.0, duration: 1))
+
 actq.addNext(mySprite2, action: SKAction.moveTo( CGPointMake(10, 10), duration: 1))
