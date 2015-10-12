@@ -2,8 +2,7 @@ these two classes create a FIFO queue that will sequentially process any SKActio
 
 
 ****************
-*    Example   *
-****************
+*    Example   
 
 // define the ActionQ object
 let actq = ActionQ()
